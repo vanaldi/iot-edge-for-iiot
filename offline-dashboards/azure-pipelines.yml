@@ -1,4 +1,12 @@
 trigger:
+  batch: true
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - 'offline-dashboards/*'
+
 pr:
   autoCancel: true
 
