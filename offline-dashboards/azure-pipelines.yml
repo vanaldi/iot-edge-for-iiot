@@ -1,4 +1,6 @@
 trigger:
+- task: GitVersion@5
+  inputs:
   batch: true
   branches:
     include:
